@@ -1,3 +1,0 @@
-stat (1)             - display file or file system status
-stat (2)             - get file status
-stat (3type)         - file status

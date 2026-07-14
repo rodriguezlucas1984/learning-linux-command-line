@@ -1,0 +1,7 @@
+# Finding help for commands
+
+## English
+Linux users rely on built-in documentation rather than memorizing all commands and options. The `man` command opens manual pages for a program, showing usage, options, and arguments. Navigation inside `man` is handled by the pager (usually `less`), with keys like `F`, `B`, arrow keys, and space to move through the text, and `Q` to quit. Many commands also support `--help` for a brief summary, while Bash-specific builtin commands can be documented with `help`. When you do not know a command name, `apropos` searches installed command descriptions for matching text. Keeping notes on frequently used commands and tasks helps supplement built-in references.
+
+## Español
+Los usuarios de Linux dependen de la documentación incorporada en lugar de memorizar todos los comandos y opciones. El comando `man` abre las páginas de manual de un programa, mostrando uso, opciones y argumentos. La navegación dentro de `man` se realiza con el paginador (generalmente `less`), usando teclas como `F`, `B`, flechas y espacio para moverse, y `Q` para salir. Muchos comandos también soportan `--help` para un resumen breve, mientras que los comandos integrados de Bash se documentan con `help`. Cuando no conoces el nombre de un comando, `apropos` busca en las descripciones de los comandos instalados el texto coincidente. Tomar notas de los comandos y tareas que usas con frecuencia ayuda a complementar la documentación incorporada.
