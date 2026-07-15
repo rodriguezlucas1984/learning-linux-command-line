@@ -45,3 +45,75 @@ Este directorio contiene una serie práctica de lecciones y ejercicios sobre tar
 
 ### Resumen del Directorio
 La carpeta combina teoría, ejemplos de comandos y ejercicios prácticos. Está pensada para ayudar a los estudiantes a ganar confianza con tareas habituales del shell y a entender cómo combinar herramientas de Linux de manera eficiente.
+
+### Running the Scripts
+The `scripts/` directory contains several shell scripts that demonstrate practical command-line techniques:
+
+- **pipes.sh** — Demonstrates the use of pipes and command chaining
+- **manipulate-text.sh** — Shows text processing with `awk`, `sed`, and `sort`
+- **tar-and-zip.sh** — Illustrates archive creation and extraction
+- **extract-information.sh** — A challenge script for information extraction
+
+#### How to Run the Scripts
+
+Before running any script, ensure it has execute permissions. From the `04-common-command_line-task-and-tools/` directory, run:
+
+```bash
+chmod +x scripts/*.sh
+```
+
+Then, execute any script using:
+
+```bash
+./scripts/pipes.sh
+./scripts/manipulate-text.sh
+./scripts/tar-and-zip.sh
+./scripts/extract-information.sh
+```
+
+Or from the scripts directory itself:
+
+```bash
+cd scripts/
+bash pipes.sh
+bash manipulate-text.sh
+bash tar-and-zip.sh
+bash extract-information.sh
+```
+
+---
+
+### Ejecutar los Scripts
+El directorio `scripts/` contiene varios scripts de shell que demuestran técnicas prácticas de línea de comandos:
+
+- **pipes.sh** — Demuestra el uso de tuberías y encadenamiento de comandos
+- **manipulate-text.sh** — Muestra el procesamiento de texto con `awk`, `sed` y `sort`
+- **tar-and-zip.sh** — Ilustra la creación y extracción de archivos
+- **extract-information.sh** — Un script de desafío para extracción de información
+
+#### Cómo Ejecutar los Scripts
+
+Antes de ejecutar cualquier script, asegúrate de que tenga permisos de ejecución. Desde el directorio `04-common-command_line-task-and-tools/`, ejecuta:
+
+```bash
+chmod +x scripts/*.sh
+```
+
+Luego, ejecuta cualquier script usando:
+
+```bash
+./scripts/pipes.sh
+./scripts/manipulate-text.sh
+./scripts/tar-and-zip.sh
+./scripts/extract-information.sh
+```
+
+O desde el directorio scripts:
+
+```bash
+cd scripts/
+bash pipes.sh
+bash manipulate-text.sh
+bash tar-and-zip.sh
+bash extract-information.sh
+```
